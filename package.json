@@ -1,0 +1,31 @@
+{
+  "name": "nutrition-finder-aws-lambda",
+  "version": "1.0.0",
+  "description": "Gets nutrition value of food images using IBM's watsons visual recognition service to classify the food type and name and nutritionix api platform to get the nutrition facts by name of the food.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramyakruw/nutrition-finder-aws-lambda.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "nutrition",
+    "watson",
+    "nutritionix",
+    "s3"
+  ],
+  "author": "ramyak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramyakruw/nutrition-finder-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/ramyakruw/nutrition-finder-aws-lambda#readme",
+  "dependencies": {
+    "unirest": "^0.5.1",
+    "watson-developer-cloud": "^3.4.2"
+  }
+}
